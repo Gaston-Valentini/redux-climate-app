@@ -1,0 +1,27 @@
+.city{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(10, 102, 102);
+    color: #fff;
+    border: 1px solid #000;
+    box-shadow: -3px 3px 6px rgb(78, 78, 78);
+}
+
+.button{
+    margin: 10px;
+    align-self: flex-end;
+    border: 1px solid #000;
+    border-radius: 3px;
+    padding: 6px 9px;
+    background-color: rgb(255, 67, 67);
+}
+
+.button:hover{
+    cursor: pointer;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.info{
+    margin: 10px;
+}

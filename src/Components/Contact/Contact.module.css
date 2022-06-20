@@ -1,0 +1,31 @@
+.contact{
+    background-color: rgb(10, 102, 102);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0;
+    box-shadow: 0 0 10px #000;
+}
+
+.contactDesigned{
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.contactDesigned a{
+    color: rgb(241, 255, 50);
+}
+
+.contactRepository{
+    text-align: center;
+    text-decoration: none;
+    font-style: italic;
+    color: #000;
+}
+
+.contactRepository:hover{
+    color: #fff;
+}

@@ -1,0 +1,24 @@
+.cities{
+    padding: 30px 30px 110px 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
+
+@media(max-width: 950px){
+    .cities{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media(max-width: 720px){
+    .cities{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(max-width: 400px){
+    .cities{
+        grid-template-columns: 1fr;
+    }
+}

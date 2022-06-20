@@ -1,0 +1,21 @@
+.app{
+    background-image: url("./Images/clouds.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.p{
+    color: rgb(241, 255, 50);
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px rgb(66, 66, 66);
+}
+
+@media(max-width: 500px){
+    .p{
+        font-size: 25px;
+    }
+}
